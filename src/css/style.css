@@ -19,3 +19,47 @@ h1,h2,h3 {
     font-size: .9em;
     border-radius: 3px;
 }
+
+nav{
+    /*
+    display: -webkit-box;display: -ms-flexbox;display: flex; 
+    Criado inserindo o display: flex; no autoprefixer
+    ele gera o primeiro display que é compatível com diferentes navegadores.
+    */
+    background-color: #4d4d4d;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Pacifico, serif;
+    margin-top: 5px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width:100%;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+/* Adicionei um hover pra criar uma animação quando passar o mouse em cima de um item do menu */
+nav ul a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color, color .7s;
+}
