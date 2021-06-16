@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,63 @@
 </head>
 
 <body>
+    <nav class="flex">
+        <a href="#"><em>Santa Ceia</em></a>
+        <ul class="flex">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#portfolio">Portifólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
+    <header>
+        <h2>O que somos?</h2>
+        <p>Somos um grupo de universitários com varios projetos em mente.</p>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre nós</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, doloremque? Optio quidem doloribus iste non
+            laboriosam commodi a blanditiis porro nemo? Voluptate dignissimos quas atque voluptas impedit, ducimus et
+            dolor!</p>
+        <a href="#contato" class="botao">ENTRE EM CONTATO</a>
+    </section>
+
+    <section id="servicos">
+        <p>Ainda estamos pensando nisso!</p>
+        <img src="./img/404.png" alt="Em construção!" />
+    </section>
+    <section id="portfolio">
+        <p>O que sabemos</p>
+
+        <img src="./img/css.jpeg" alt="foto css" />
+        <img src="./img/docker.png" alt="foto docker">
+        <img src="./img/html.jpeg" alt="foto html">
+        <img src="./img/javaScript.png" alt="foto JS">
+        <img src="./img/linux.jpeg" alt="foto linux">
+    </section>
+
+    <section id="contato" class="flex">
+        <h2>CONTATO</h2>
+        <p>Entre em contato conosco!</p>
+        <!--Atalho para as divs abaixo: div*2>img+p>a -->
+        <div id="lado-a-lado" class="flex">
+            <div>
+                <p><a href="tel: (77) 99999-9999">
+                        <img src="./img/fone.png" alt="Telefone"></a></p>
+            </div>
+            <div>
+                <p><a href="mailto:meuEmail@gmail.com">
+                        <img src="./img/contato.png" alt="E-mail">
+                    </a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por: <em>Santa Ceia</em></p>
+    </footer>
 </body>
 
 </html>
