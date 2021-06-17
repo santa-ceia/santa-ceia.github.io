@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-=======
 /*
 GERAL
 */
 body{
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background-color:#d8d8d8;
     color: #4d4d4d;
 }
 h1,h2,h3 {
@@ -91,8 +90,12 @@ header p {
 
 #sobre{
     /* Talvez uma foto de fundo. */
+     background-image: url('../../img/castelo-floresta.jpeg');
+     background-size: cover;
+     background-repeat: no-repeat;
     text-align: center;
     padding: 20px;
+    color: #f1f1f1;
 }
 
 #servicos{
@@ -106,4 +109,3 @@ header p {
 footer{
    text-align: center;
 }
->>>>>>> f8f155c6bcbcdd2058738207f2dcf391faafc57a
