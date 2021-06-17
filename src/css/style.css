@@ -1,0 +1,109 @@
+<<<<<<< HEAD
+=======
+/*
+GERAL
+*/
+body{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #4d4d4d;
+}
+h1,h2,h3 {
+    margin: 0;
+    font-family: "Roboto Slab",  Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}
+
+.display-flex-align-items-flex-direction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    color: #f1f1f1;
+    padding: 10px 30px;
+    background-color: #8f3faf;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+nav{
+    /*
+    display: -webkit-box;display: -ms-flexbox;display: flex; 
+    Criado inserindo o display: flex; no autoprefixer
+    ele gera o primeiro display que é compatível com diferentes navegadores.
+    */
+    background-color: #4d4d4d;
+}
+
+nav > a {
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Pacifico, serif;
+    margin-top: 5px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width:100%;
+    color: #f1f1f1;
+}
+
+/* Adicionei um hover pra criar uma animação quando passar o mouse em cima de um item do menu */
+nav ul a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color, color .7s;
+}
+/*
+Cabeçalho
+*/
+header{
+    background-image: url('../../img/juanes-santa-ceia-d.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+#sobre{
+    /* Talvez uma foto de fundo. */
+    text-align: center;
+    padding: 20px;
+}
+
+#servicos{
+    margin-bottom: 2em;
+}
+
+#portfolio img{
+   margin-bottom: 2em;
+}
+
+footer{
+   text-align: center;
+}
+>>>>>>> f8f155c6bcbcdd2058738207f2dcf391faafc57a
