@@ -39,6 +39,13 @@ nav{
     background-color: #4d4d4d;
 }
 
+nav h1{
+    border-bottom: 0.2rem solid black;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
 nav > a {
     color: #f1f1f1;
     font-weight: 700;
